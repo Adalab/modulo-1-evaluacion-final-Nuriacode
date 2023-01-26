@@ -131,6 +131,16 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+:root {
+  font-size: 62.5%; }
+
+/*
+$--colorname: $--black;
+$--colorh2: $--blue-green;
+$--colorlogos: $--blue-green;
+$--colorpuntos: $--gunmetal;
+$--colorbackground1: $--white;
+$--colorbordebox: $--black-8;*/
 .hero {
   background-image: url(../images/cover.jpeg);
   background-size: 200%;
@@ -139,6 +149,10 @@ table {
   display: flex;
   flex-direction: column; }
   .hero .img_nav {
-    background-color: orange; }
+    background-color: #f26002;
+    display: block;
+    position: relative;
+    width: 37px;
+    height: 34px; }
 
 /*# sourceMappingURL=main.css.map */

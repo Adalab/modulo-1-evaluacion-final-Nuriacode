@@ -7,8 +7,11 @@
     flex-direction: column;
 
     .img_nav {
-        background-color: orange;
-        
+        background-color: $--orange;
+        display: block;
+        position: relative;
+        width: 37px;
+        height: 34px;
     }
 }
 
