@@ -1,12 +1,14 @@
 .hero {
-    background-color: url(./assets/images/icon-menu.svg);
+    background-image: url(../images/cover.jpeg);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
 
-    .nav_header {
-            background-color: #f26002;
-    
-    
-        }
-    
+    .img_nav {
+        background-color: orange;
+        
+    }
 }
 
