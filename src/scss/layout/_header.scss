@@ -1,17 +1,30 @@
 .hero {
     background-image: url(../images/cover.jpeg);
-    background-size: 200%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 100vh;
     display: flex;
     flex-direction: column;
 
     .img_nav {
-        background-color: $--orange;
-        display: block;
-        position: relative;
-        width: 37px;
-        height: 34px;
+        background-color: $orange;
+        position: fixed;
+        background-image: url(../images/ico-menu.svg);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 3.7%;
+        height: 6%;
+    }
+
+    .title_header {
+        font-family: $h1title;
+        color: $white;
+        font-size: 4rem;
+        text-align: center;
+        padding-top: 90%;
+        
     }
 }
 

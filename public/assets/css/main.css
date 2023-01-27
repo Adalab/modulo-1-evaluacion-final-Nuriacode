@@ -143,16 +143,26 @@ $--colorbackground1: $--white;
 $--colorbordebox: $--black-8;*/
 .hero {
   background-image: url(../images/cover.jpeg);
-  background-size: 200%;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   height: 100vh;
   display: flex;
   flex-direction: column; }
   .hero .img_nav {
     background-color: #f26002;
-    display: block;
-    position: relative;
-    width: 37px;
-    height: 34px; }
+    position: fixed;
+    background-image: url(../images/ico-menu.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 3.7%;
+    height: 6%; }
+  .hero .title_header {
+    font-family: "Roboto Slab", sans-serif;
+    color: #fff;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 90%; }
 
 /*# sourceMappingURL=main.css.map */
