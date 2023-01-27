@@ -45,9 +45,46 @@
         width: 160px;
     }
 
-    .section_2{
-        background-color: $light-grey;
-        display: flex;
+}
+
+.section_2 {
+    background-color: $light-grey;
+    color: $black;
+    display: grid;
+    grid-template-columns: (1fr 1fr 1fr);
+    width: 100vw;
+    text-align: center;
+
+    .title_section_2 {
+        font-family: $h1title;
+        font-size: 2rem;
+        grid-column: 1/4;
+        justify-items: center;
+        
+    }
+    
+    .articles_section_2 {
+        grid-column: 1/4;
+        .title_article {
+            font-family: $h1title;
+            font-weight: bold;
+            font-size: 1.8rem;
+        }
+    }
+
+    .button_section_2 {
+        grid-column: 1/4;
+        color: $white;
+        background-color: $orange;
+        text-decoration: none;
+        font-size: 2rem;
+        font-family: $h2title;
+        border-radius: 22px;
+        text-align: center;
+        align-self: center;
+        padding: 10px 11px;
+        width: 60%;
+        
     }
 }
 
