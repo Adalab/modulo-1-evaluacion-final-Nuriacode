@@ -146,6 +146,7 @@ $--colorbordebox: $--black-8;*/
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column; }
@@ -156,13 +157,78 @@ $--colorbordebox: $--black-8;*/
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
-    width: 3.7%;
-    height: 6%; }
+    width: 37px;
+    height: 34px; }
   .hero .title_header {
     font-family: "Roboto Slab", sans-serif;
     color: #fff;
-    font-size: 4rem;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #292828;
+    font-size: 3rem;
+    justify-content: center;
     text-align: center;
-    padding-top: 90%; }
+    padding: 95% 20px 0 20px;
+    line-height: 5rem; }
+  .hero .title_header_2 {
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    font-size: 1.55rem;
+    padding: 0 20px 0 20px;
+    line-height: 2rem; }
+  .hero .button_header {
+    background-color: #fff;
+    background-image: url(../images/ico-scroll-down.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    align-self: center;
+    justify-content: center;
+    margin-top: 25px; }
+
+.section_1 {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-bottom: 10%;
+  width: 95vw; }
+  .section_1 .text_1 {
+    padding-top: 5vh;
+    padding-bottom: 1.6vh;
+    color: #f26002;
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter; }
+  .section_1 .title_section_1 {
+    font-size: 2.0rem;
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: bold;
+    padding-bottom: 15px; }
+  .section_1 .text_2 {
+    color: #4a4a4a;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.7rem;
+    font-weight: lighter;
+    width: auto;
+    line-height: 30px;
+    padding-bottom: 5%; }
+  .section_1 .button_section_1 {
+    color: #f26002;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: medium;
+    text-decoration: none;
+    border: solid 2px;
+    border-radius: 22px;
+    text-align: center;
+    padding: 10px 11px;
+    width: 160px; }
+  .section_1 .section_2 {
+    background-color: #f2f2f2;
+    display: flex; }
 
 /*# sourceMappingURL=main.css.map */

@@ -3,6 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,17 +15,43 @@
         background-size: auto;
         background-repeat: no-repeat;
         background-position: center;
-        width: 3.7%;
-        height: 6%;
+        width: 37px;
+        height: 34px;
     }
 
     .title_header {
         font-family: $h1title;
         color: $white;
-        font-size: 4rem;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 1px rgb(41, 40, 40);
+        font-size: 3rem;
+        justify-content: center;
         text-align: center;
-        padding-top: 90%;
-        
+        padding: 95% 20px 0 20px;
+        line-height: 5rem;
+    }
+
+    .title_header_2 {
+        text-align: center;
+        color: $white;
+        font-family: $h2title;
+        font-weight: lighter;
+        font-size: 1.55rem;
+        padding: 0 20px 0 20px;
+        line-height: 2rem;
+    }
+
+    .button_header {
+        background-color: $white;
+        background-image: url(../images/ico-scroll-down.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        align-self: center;
+        justify-content: center;
+        margin-top: 25px;
     }
 }
 
