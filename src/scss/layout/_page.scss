@@ -1,3 +1,5 @@
+/* "Conecta contigo" section starts*/
+
 .section_1{
     background-color: $white;
     display: flex;
@@ -47,28 +49,40 @@
 
 }
 
+
+
+/* "Año nuevo" section starts */
+
 .section_2 {
     background-color: $light-grey;
     color: $black;
     display: grid;
     grid-template-columns: (1fr 1fr 1fr);
-    width: 100vw;
-    text-align: center;
+    gap: 20px;
 
     .title_section_2 {
+        display: grid;
         font-family: $h1title;
         font-size: 2rem;
         grid-column: 1/4;
-        justify-items: center;
+        justify-content: center;
         
     }
     
     .articles_section_2 {
+        justify-content: center;
         grid-column: 1/4;
+        gap: 10px;
+        
         .title_article {
             font-family: $h1title;
             font-weight: bold;
             font-size: 1.8rem;
+            text-align: center;
+        }
+        
+        .text_article {
+            text-align: center;
         }
     }
 
@@ -81,9 +95,8 @@
         font-family: $h2title;
         border-radius: 22px;
         text-align: center;
-        align-self: center;
         padding: 10px 11px;
-        width: 60%;
+        
         
     }
 }
