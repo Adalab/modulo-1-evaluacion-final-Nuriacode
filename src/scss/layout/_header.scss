@@ -18,7 +18,7 @@
         width: 3.7rem;
         height: 3.4rem;
     }
-    
+
     .title_header {
         font-family: $h1title;
         color: $white;
@@ -28,6 +28,13 @@
         font-size: 9.4vw;
         line-height: 15.7vw;
         padding-top: 31.4rem;
+
+        @media (min-width: 768px) {
+            font-size: 7.5rem;
+        }
+        @media (min-width: 1200px){
+            font-size: 10rem;
+        }
     }
 
     

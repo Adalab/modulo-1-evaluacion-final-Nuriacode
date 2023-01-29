@@ -65,35 +65,47 @@
     .title_section_2 {
         display: grid;
         font-family: $h1title;
-        font-size: 5vw;
+        padding-top: 30px;
+        margin-bottom: 4rem;
+        margin-left: 6.6rem;
+        margin-right: 6.6rem;
+        font-weight: bolder;
+        text-align: center;
+        font-size: 1.8rem;
+        line-height: 3rem;
         grid-column: 1/4;
-        justify-content: center;
-        align-items: center;
         
     }
     
     .article_1 {
-        justify-content: center;
         grid-column: 1/4;
-        gap: 10px;
+        
         
         .title_article {
             font-family: $h1title;
-            font-weight: bold;
+            font-weight: bolder;
             font-size: 1.8rem;
             text-align: center;
+            
+            
         }
         
         .text_article {
             text-align: center;
+            font-size: 1.8rem;
+            font-family: $h2title;
+            margin-left: 6.6rem;
+            margin-right: 6.6rem;
+            font-weight: lighter;
+            line-height: 3rem;
         }
     }
 
     .article_2 {
         display: grid;
-            justify-content: center;
-            grid-column: 1/4;
-            gap: 10px;
+        justify-content: center;
+        grid-column: 1/4;
+        
     
             .title_article {
                 font-family: $h1title;
@@ -104,6 +116,12 @@
     
             .text_article {
                 text-align: center;
+                font-size: 1.8rem;
+                font-family: $h2title;
+                margin-left: 6.6rem;
+                margin-right: 6.6rem;
+                font-weight: lighter;
+                line-height: 3rem;
             }
         }
     
@@ -120,7 +138,13 @@
              }
     
              .text_article {
-                 text-align: center;
+                text-align: center;
+                font-size: 1.8rem;
+                font-family: $h2title;
+                margin-left: 6.6rem;
+                margin-right: 6.6rem;
+                font-weight: lighter;
+                line-height: 3rem;
              }
          }
 
@@ -128,10 +152,12 @@
             background-color: $orange;
             text-decoration: none;
             font-family: $h2title;
-            font-size: 1.5rem;
+            font-size: 2rem;
             color: $white;
             grid-column: 2/3;
+            display: grid;
             justify-content: center;
+            align-items: center;
             text-align: center;
             border-radius: 22.5px;
             padding: 12px 22.5px 12px 22.5px;
