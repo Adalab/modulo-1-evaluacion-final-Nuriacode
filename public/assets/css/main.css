@@ -165,18 +165,17 @@ $--colorbordebox: $--black-8;*/
     color: #fff;
     text-transform: uppercase;
     text-shadow: 1px 1px 1px #292828;
-    font-size: 3rem;
+    font-size: 11vw;
     justify-content: center;
     text-align: center;
-    padding: 95% 20px 0 20px;
-    line-height: 5rem; }
+    padding: 60vh 16px 0 16px; }
   .hero .title_header_2 {
     text-align: center;
     color: #fff;
     font-family: "Roboto", sans-serif;
     font-weight: lighter;
-    font-size: 1.55rem;
-    padding: 0 20px 0 20px;
+    font-size: 5vw;
+    padding: 0 16px 0 16px;
     line-height: 2rem; }
   .hero .button_header {
     background-color: #fff;
@@ -240,30 +239,56 @@ $--colorbordebox: $--black-8;*/
   .section_2 .title_section_2 {
     display: grid;
     font-family: "Roboto Slab", sans-serif;
-    font-size: 2rem;
+    font-size: 5vw;
     grid-column: 1/4;
-    justify-content: center; }
-  .section_2 .articles_section_2 {
+    justify-content: center;
+    align-items: center; }
+  .section_2 .article_1 {
     justify-content: center;
     grid-column: 1/4;
     gap: 10px; }
-    .section_2 .articles_section_2 .title_article {
+    .section_2 .article_1 .title_article {
       font-family: "Roboto Slab", sans-serif;
       font-weight: bold;
       font-size: 1.8rem;
       text-align: center; }
-    .section_2 .articles_section_2 .text_article {
+    .section_2 .article_1 .text_article {
+      text-align: center; }
+  .section_2 .article_2 {
+    display: grid;
+    justify-content: center;
+    grid-column: 1/4;
+    gap: 10px; }
+    .section_2 .article_2 .title_article {
+      font-family: "Roboto Slab", sans-serif;
+      font-weight: bold;
+      font-size: 1.8rem;
+      text-align: center; }
+    .section_2 .article_2 .text_article {
+      text-align: center; }
+  .section_2 .article_3 {
+    justify-content: center;
+    grid-column: 1/4;
+    gap: 10px; }
+    .section_2 .article_3 .title_article {
+      font-family: "Roboto Slab", sans-serif;
+      font-weight: bold;
+      font-size: 1.8rem;
+      text-align: center; }
+    .section_2 .article_3 .text_article {
       text-align: center; }
   .section_2 .button_section_2 {
-    grid-column: 1/4;
-    color: #fff;
-    background-color: #f26002;
-    text-decoration: none;
-    font-size: 2rem;
-    font-family: "Roboto", sans-serif;
-    border-radius: 22px;
-    text-align: center;
-    padding: 10px 11px; }
+    grid-column: 2/3;
+    justify-content: center;
+    text-align: center; }
+
+@media (min-width: 768px) {
+  .section_2 .article_1 {
+    grid-column: 1/2; }
+  .section_2 .article_2 {
+    grid-column: 2/3; }
+  .section_2 .article_3 {
+    grid-column: 3/4; } }
 
 .footer {
   background-color: #4a4a4a;
