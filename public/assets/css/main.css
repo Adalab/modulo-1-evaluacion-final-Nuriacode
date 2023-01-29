@@ -3,11 +3,6 @@
 @import 'components/code';
 @import 'components/links';
 @import 'pages/index';*/
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
-
 html,
 body,
 div,
@@ -133,6 +128,9 @@ table {
   border-spacing: 0; }
 
 :root {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   font-size: 62.5%; }
 
 /*
@@ -147,8 +145,8 @@ $--colorbordebox: $--black-8;*/
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100vw;
   height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column; }
   .hero .img_nav {
@@ -158,17 +156,17 @@ $--colorbordebox: $--black-8;*/
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
-    width: 37px;
-    height: 34px; }
+    width: 3.7rem;
+    height: 3.4rem; }
   .hero .title_header {
     font-family: "Roboto Slab", sans-serif;
     color: #fff;
     text-transform: uppercase;
     text-shadow: 1px 1px 1px #292828;
-    font-size: 11vw;
-    justify-content: center;
     text-align: center;
-    padding: 60vh 16px 0 16px; }
+    font-size: 9.4vw;
+    line-height: 15.7vw;
+    padding-top: 31.4rem; }
   .hero .title_header_2 {
     text-align: center;
     color: #fff;
@@ -176,18 +174,19 @@ $--colorbordebox: $--black-8;*/
     font-weight: lighter;
     font-size: 5vw;
     padding: 0 16px 0 16px;
-    line-height: 2rem; }
+    line-height: 5.9vw; }
   .hero .button_header {
     background-color: #fff;
     background-image: url(../images/ico-scroll-down.svg);
     background-repeat: no-repeat;
     background-position: center;
-    width: 35px;
-    height: 35px;
+    position: relative;
+    width: 3.5rem;
+    height: 3.5rem;
     border-radius: 50%;
     align-self: center;
-    justify-content: center;
-    margin-top: 25px; }
+    margin-top: 1.5rem;
+    margin-bottom: 3.7rem; }
 
 /* "Conecta contigo" section starts*/
 .section_1 {
@@ -234,6 +233,8 @@ $--colorbordebox: $--black-8;*/
   background-color: #f2f2f2;
   color: #000000;
   display: grid;
+  justify-content: center;
+  align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px; }
   .section_2 .title_section_2 {
@@ -278,9 +279,19 @@ $--colorbordebox: $--black-8;*/
     .section_2 .article_3 .text_article {
       text-align: center; }
   .section_2 .button_section_2 {
+    background-color: #f26002;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
     grid-column: 2/3;
     justify-content: center;
-    text-align: center; }
+    text-align: center;
+    border-radius: 22.5px;
+    padding: 12px 22.5px 12px 22.5px;
+    margin-top: 27px;
+    margin-bottom: 50px;
+    width: 14rem; }
 
 @media (min-width: 768px) {
   .section_2 .article_1 {
