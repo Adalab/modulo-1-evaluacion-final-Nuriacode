@@ -1,3 +1,18 @@
+ .button2_section_2 {
+     position: absolute;
+     left: 0;
+     right: 0;
+     margin: auto;
+     width: 4.5rem;
+     height: 4.5rem;
+     border-radius: 50%;
+     transform: translateY(-20px);
+     background-color: $white;
+     background-image: url(../images/ico-arrow.svg);
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+
 .footer {
     background-color: $dark--grey;
     display: flex;
@@ -5,14 +20,15 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    
 
     .nav_1_footer{
+        font-size: 1.6rem;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 10px 10px;
-        gap: 5px;
+        margin-top: 6.5rem;
+        margin-bottom: 3rem;
+        gap: 2rem;
         text-transform: uppercase;
     }
 
@@ -23,21 +39,29 @@
     }
 
     .nav_2_footer {
+        font-size: 1.6rem;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 10px 10px;
-        gap: 5px;
+        margin-bottom: 3rem;
+        gap: 2rem;
         text-transform: uppercase;
     }
 
     .nav_3_footer {
         display: flex;
+        font-size: 1.4rem;
         flex-direction: column;
+        text-align: center;
         color: $white;
         font-family: $h2title;
-        gap: 3px;
+        gap: 1.6rem;
         margin: 10px 10px;
+
+        .fa-solid{
+            color: $orange;
+            margin-bottom: 4rem;
+        }
     }
 
 }
@@ -45,14 +69,26 @@
 @media (min-width: 768px) {
 
     .footer {
-        display: flex;
         flex-direction: row;
         justify-content: space-around;
+        align-items: baseline;
+
+        .nav_1_footer {
         align-items: flex-start;
-    }
-
-    .nav_3_footer {
+        }
+        .nav_2_footer {
+        align-items: flex-start;
+        }
+        .nav_3_footer {
         order: -1;
+        align-items: flex-start;
+        }
     }
+}
 
+@media (min-width: 1200px) {
+    .footer {
+        padding-left: 37rem;
+        padding-right: 37rem;
+    }
 }
