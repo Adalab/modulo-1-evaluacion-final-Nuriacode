@@ -3,65 +3,106 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <title>Evaluación Nuriacode</title>
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet">
+    <script src="https://kit.fontawesome.com/596a18d244.js"
+      crossorigin="anonymous"></script>
   </head>
 
   <body>
     <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
+      <header id="inicio" class="hero">
+          <a href="https://adalab.es/"class="img_nav"></a>
+          <h1 class="title_header">Hasta un 50% de descuento</h1>
+          <p class="title_header_2">Ya están aquí las ofertas de fin de temporada</p>
+          <a href="#seccion2" class="button_header">  
+          </a>
       </header>
+      <main>
+          <section class="section_1">
+              <small class="text_1">Los sentimientos nos inspiran.</small>
+              <h2 class="title_section_1">Conecta Contigo</h2>
+              <p class="text_2">Esto es una celebración de todo lo que nos mueve. Del poder de elegir y de la libertad de ser. Rendimos homenaje al hermoso caos del movimiento y a la plena consciencia que tan bien nos hacen sentir.</p>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+              <a class="button_section_1" href="https://adalab.es/">Comprar</a>
+          </section>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
+          <section id="seccion2" class="section_2">
+              <h2 class="title_section_2">Año nuevo, movimientos nuevos</h2>
 
-          </li>
-        </ul>
+              <article class="article_1">
+                  <h3 class="title_article">Entrenamientos</h3>
+                  <p class="text_article">Sesiones de running y entrenamientos.</p>
+              </article>
+              
+              <article class="article_2">
+                  <h3 class="title_article">Cualquier nivel</h3>
+                  <p class="text_article">Entrenamientos para cada nivel.</p>
+              </article>
+             
+              <article class="article_3">
+                  <h3 class="title_article">Exclusividad</h3>
+                  <p class="text_article">Productos para miembros premium.</p>
+              </article>
+
+              <a class="button_section_2" href="https://adalab.es/">Empezar ahora</a>
+              
+          </section>
       </main>
+      <footer>
+          <section>
+              <a href="#inicio">
+              <img class="button2_section_2">
+              </a>
+          </section>
+          <section class="footer">
+          <nav>
+              <ul class="nav_1_footer">
+                  <a class="item_nav" href="https://adalab.es/">
+                      <li>Zapatillas</li>
+                  </a>
+                  <a class="item_nav" href="https://adalab.es/">
+                      <li>Ropa</li>
+                  </a>
+                  <a class="item_nav" href="https://adalab.es/">
+                      <li>Niño/a</li>
+                  </a>
+                  <a class="item_nav" href="https://adalab.es/">
+                      <li>Destacados</li>
+                  </a>
+                  <a class="item_nav" href="https://adalab.es/">
+                      <li>Tips</li>
+                  </a>
+               </ul>
+          </nav>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+          <nav>
+              <ul class="nav_2_footer">
+                  <a class="item_nav"href="https://adalab.es/">
+                      <li>Twiter</li>
+                  </a>
+                  <a class="item_nav" href="https://adalab.es/">
+                      <li>Instagram</li>
+                  </a>
+                  <a class="item_nav" href="https://adalab.es/">
+                      <li>Youtube</li>
+                  </a>
+              </ul>
+          </nav>
 
-        </small>
+          <div class="nav_3_footer">
+             <p>©2023</p> 
+             <p>we <i class="fa-solid fa-heart"></i> run</p>
+          </div>
+          </section>
+
       </footer>
-
     </div>
     <script src="./assets/js/main.js"></script>
   </body>
